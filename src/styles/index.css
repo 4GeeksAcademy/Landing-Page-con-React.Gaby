@@ -6,3 +6,12 @@ body {
   background-repeat: no-repeat;
   background-color: #000;
 }
+
+.custom-card {
+  background-image: url("https://thumbs.dreamstime.com/b/pared-de-ladrillo-antiguo-con-yeso-descascaramiento-para-fondo-pelado-193255563.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.586);
+  background-blend-mode: lighten;
+}

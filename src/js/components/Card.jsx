@@ -9,11 +9,11 @@ export const Card = (props) => {
 
   return (
     <div className="col-md-4">
-      <div className="card h-100">
+      <div className="card h-100 custom-card">
         <img src={props.imagen} className="card-img-top" alt="arte" />
         <div className="card-body">
           <h5 className="card-title">{props.nombre}</h5>
-          <button onClick={toggleDescripcion} className="btn btn-primary">
+          <button onClick={toggleDescripcion} className="btn btn-outline-dark">
             Más información
           </button>
           {mostrarDescripcion && (
